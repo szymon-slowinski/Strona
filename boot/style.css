@@ -1,0 +1,142 @@
+  .navbar
+  {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color: rgb(139, 10, 27);
+      color: #ffffff;                                                                 /* przyciski gorny pasek */
+      padding: 1% 0;
+      font-size: 1.3em;
+      border: 0;
+      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;        
+      
+  }
+ .fa-home,.fa-briefcase,.fa-percent,.fa-info,.fa-sign-in-alt,.fa-user-plus
+{
+  font-size: 20px;                                                    /* ikony gorny pasek */
+  margin-right:12px;
+  
+}
+  .navbar-brand
+  {
+    float: left;
+    min-height: 55px;
+    padding: 0 15px 5px;
+  }
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover
+
+{
+  color: #ffffff;
+  background-color: rgb(139, 10, 27);
+}
+.navbar-inverse .navbar-nav li a 
+{
+  color: #d5d5d5;
+}
+.carousel-caption
+{
+  top: 40%;
+  transform: translateY(-50);
+  text-transform:  uppercase;
+  color: rgb(139, 10, 27);
+  font-family: 'Courier New', Courier, monospace;
+  
+
+}
+.btn
+{
+  font-size: 18px;
+  color: #ffffff;
+  padding: 12px 22px;                                                             /* middle button */
+  background: rgb(204, 7, 33);
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;    
+  
+}
+.container
+{
+  margin: 4% auto;
+}
+#icon
+ {
+  max-width: 200px;
+  margin: 1% auto;
+ }
+ #logotop
+ {
+   max-width: 300px;
+   margin-top: 0px;                           /* top left logo */
+   
+  
+   
+ }
+ #logomiddle
+ {
+   max-width: 150px;
+   margin-top: -150px;                          /* middle logo */
+ }
+ 
+#textbottomfirstline
+{
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  
+}
+.fa-credit-card,.fa-mobile-alt,.fa-car-crash
+{
+  font-size: 130px;
+  color: red;
+}
+#textfarbottom 
+{
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+#hyperlinkbottom
+{
+  text-decoration: none;
+}
+
+/* Mobile CSS Start */
+
+
+@media (max-width: 600px)                                     /* <<<<< Showing Sign in logo on mobile */
+{
+  .carousel-caption
+  {
+    display: none;
+  }
+  #icon
+  {
+    max-width: 150px;
+  }
+  h2 
+  {
+    font-size: 1.7em;
+  }
+  #logotop
+  {
+    max-width: 220px;
+  }
+  #textbottomfirstline
+  {
+    font-size: 20px;
+    color:black;
+    
+  }
+  #textbottomsecondline
+  {
+    font-size: 15px;
+    color:black;
+    
+  }
+  .fa-credit-card,.fa-mobile-alt,.fa-car-crash
+  {
+    font-size: 80px;
+    color: red;
+    margin-top: 30px;
+  }
+  #textfarbottom 
+  {
+  font-size: 17px;
+  }
+}
